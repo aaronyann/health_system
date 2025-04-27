@@ -1,0 +1,16 @@
+server:
+  port: ":8080"
+  read_timeout: 10s
+  write_timeout: 10s
+
+database:
+  dsn: "root:Abc@1234@tcp(mysql.pglen.com:3306)/blockchain_health?charset=utf8mb4&parseTime=True&loc=Local"
+
+blockchain:
+  rpc_url: "http://127.0.0.1:7545"
+  contract_addr: "0xYourContractAddress"
+  private_key: "YOUR_PRIVATE_KEY_HERE"
+
+jwt:
+  secret_key: "your_secret_key"
+  expires_in: 24h

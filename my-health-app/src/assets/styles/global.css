@@ -1,0 +1,72 @@
+/* 重置默认样式 */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 设置全局字体及背景色 */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 链接样式 */
+a {
+  color: #409eff; /* Element Plus 默认主色 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 标题样式 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* 段落样式 */
+p {
+  margin-bottom: 1rem;
+}
+
+/* 公共容器 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 公共按钮样式（可覆盖 Element Plus 按钮样式） */
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #409eff;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #66b1ff;
+}
+
+/* Element Plus 组件覆盖样例 */
+.el-header {
+  background-color: #409eff;
+  color: #fff;
+  line-height: 60px;
+}
